@@ -1,3 +1,5 @@
+
+
 const removeTask = (event) => {
     const li = event.target.closest("li");
     li.parentNode.removeChild(li);
