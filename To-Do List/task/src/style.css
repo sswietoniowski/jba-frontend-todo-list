@@ -37,3 +37,7 @@ li input{
 #add-task-button {
     min-width: max-content;
 }
+
+li input:checked + span.task {
+    text-decoration: line-through;
+}
